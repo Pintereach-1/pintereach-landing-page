@@ -51,7 +51,7 @@ html {
     height: 100vh;
 }
 body {
-    background-color: transparent;
+    background-color: #F9FBEF;
     max-width: 100%;
     margin:auto;
     box-sizing:border-box;
@@ -129,7 +129,7 @@ body {
 .topSection{
     display:flex;
     flex-direction: row;
-    background-color: #ECF2CE;
+    background-color: #F9FBEF;
     padding: 1%;
     height: 40vh;
 }
@@ -177,8 +177,42 @@ body {
     background-color: transparent;
     padding:1%;
     height: 40vh;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
 }
 
+.bottomDivLeft{
+    background-color: #EEEDE7;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.bottomDivRight{
+    background-color: #F2F4F7;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.bottomSection h2{
+    font-size:1.5rem;
+}
+
+.bottomSection p{
+    text-align: center;
+    padding:2%;
+}
+
+.bottomSection img{
+    width:50%;
+    height:50%;
+}
 footer{
     background-color: #C8D96F;
     padding:1%;
