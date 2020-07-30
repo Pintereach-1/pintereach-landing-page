@@ -220,12 +220,12 @@ margin-top: 3%;
 
 .Hello-World h3{
     font-size: 18px;
-    margin-top: 4%;
+    margin-top: 2%;
     
     }
 
 .Members{
-    margin-left: 10%;
+    margin-left: 4%;
 }
 .Members li{ 
     margin-left:3%;
@@ -332,9 +332,6 @@ margin-top: 3%;
 /* Williams MEDIA */
 
 @media(max-width:500px){
-    body{
-        max-width:auto;
-    }
     
     .topNav {
         flex-direction:column;
