@@ -129,9 +129,10 @@ body {
 .topSection{
     display:flex;
     justify-content: center;
-    /* background-color: #ECF2CE; */
+    background-color: #ECF2CE;
     padding: 1%;
     height: 40%;
+
 }
 
 
@@ -234,24 +235,23 @@ footer nav a {
 
 .Middle-Cards{
     width: 100%;
-    margin-bottom: 1%;
 }
 
-.Card-Rows{
-    width: 95%;
-}
+
 .Column-Cards{
-    width:95%;
-    margin-left: 7%;
+    width:94%;
+    margin-left: 5%;
     display:flex;
     flex-flow: row;
-
+    
+}
+.Card-Rows{
+    background-color: #ECF2CE;
 }
 
-
 .Column-Cards img{
-width:99%;
-box-shadow: 8px 8px 8px #888888
+width:100%;
+box-shadow: 8px 8px 8px #888888;
 
 }
 
@@ -259,7 +259,7 @@ box-shadow: 8px 8px 8px #888888
     font-weight: bold;
     font-size: 23px;
     margin-left:7%;
-    margin-top:2%;
+    margin-top:3%;
 }
 
 .Card-Rows h4{
@@ -272,10 +272,9 @@ margin-top: 3%;
 }
 
 .Blog-Cards{
-width:30%;
-height:100%;
-margin-top:2%;
-margin-left:2%;
+width:26%;
+margin-top:8%;
+margin-left:5%;
 }
 
 .Blog-Cards2{
@@ -335,6 +334,52 @@ margin-top:5%;
 
 
 @media(max-width:500){
+    @media(max-width:500px){
+        body{
+            max-width:auto;
+        }
+        
+        .topNav {
+            flex-direction:column;
+            flex-wrap: wrap;
+        }
+        .pintereachLogoContainer{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: .15rem solid black;
+        }
+    
+        .getPintereachContainer{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-top: .15rem solid black;
+        }
+    
+        .topSectionRight h1{
+            font-size: 1.5rem;
+        }
+    
+        .topSectionRight h2{
+            font-size: .75rem;
+        }
+    
+        .topSectionRight p{
+            font-size: .75rem;
+        }
+    
+        .bottomSection h2{
+            font-size: .8rem;
+        }
+    
+        .bottomSection p{
+            font-size: .75rem;
+        }
+    
+    }
+
+/* Williams CSS MEDIA ABOVE */
 .Card-Rows{
     width: 100%;
 }
