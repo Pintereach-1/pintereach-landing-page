@@ -188,13 +188,16 @@ footer nav a {
 
 /* This is where Williams CSS for Header/Footer Goes Above */ 
 
+
+
 .Main-Blog img{
     width: 65%;
 
 }
 
 .Main-Blog{
-    width:75%;
+    width:auto;
+    background-color: #C8D96F;
     display:flex;
     margin-left:5%;
     box-shadow: 10px 10px 8px #888888
@@ -206,7 +209,7 @@ footer nav a {
 }
 
 .card-body{
-    width:100%;
+    width:auto;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -239,10 +242,9 @@ footer nav a {
 
 
 .Column-Cards{
-    width:94%;
-    margin-left: 5%;
     display:flex;
     flex-flow: row;
+    margin-left:7%
     
 }
 .Card-Rows{
@@ -250,7 +252,7 @@ footer nav a {
 }
 
 .Column-Cards img{
-width:100%;
+width:90%;
 box-shadow: 8px 8px 8px #888888;
 
 }
@@ -290,7 +292,6 @@ margin-top:8%;
     
 .Main-Blog{
     width:100%;
-    margin-right:5%;
 }
 
 .card-body{
@@ -332,8 +333,6 @@ margin-top:5%;
 }
 
 
-
-@media(max-width:500){
     @media(max-width:500px){
         body{
             max-width:auto;
@@ -376,18 +375,19 @@ margin-top:5%;
         .bottomSection p{
             font-size: .75rem;
         }
+
+        .Card-Rows{
+            width: 100%;
+        }
+        .Column-Cards{
+            width:100%;
+            margin-left: 7%;
+            display:flex;
+            flex-flow: row;
+        
+        }
     
     }
 
 /* Williams CSS MEDIA ABOVE */
-.Card-Rows{
-    width: 100%;
-}
-.Column-Cards{
-    width:100%;
-    margin-left: 7%;
-    display:flex;
-    flex-flow: row;
 
-}
-}
