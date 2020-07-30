@@ -192,7 +192,7 @@ footer nav a {
 }
 
 .Bio-Container{
-    width:90%;
+    width:100%;
     display:flex;
     flex-wrap: wrap-reverse;
     justify-content: space-evenly
@@ -323,6 +323,9 @@ margin-top: 3%;
 }
 
 @media(max-width:1000px){
+    .Members{
+        margin:0 auto;
+    }
 }
 
 
