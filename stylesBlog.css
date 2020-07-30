@@ -131,7 +131,7 @@ body {
     justify-content: center;
     /* background-color: #ECF2CE; */
     padding: 1%;
-    height: 40vh;
+    height: 40%;
 }
 
 
@@ -162,14 +162,14 @@ body {
 .bottomSection{
     background-color: transparent;
     padding:1%;
-    height: 40vh;
+    height: 40%;
 }
 
 footer{
     background-color: #C8D96F;
     padding:1%;
     text-align:center;
-    height: 5vh;
+    height: 5%;
 }
 
 footer nav{
@@ -193,7 +193,7 @@ footer nav a {
 }
 
 .Main-Blog{
-    width:65%;
+    width:75%;
     display:flex;
     margin-left:5%;
     box-shadow: 10px 10px 8px #888888
@@ -202,6 +202,96 @@ footer nav a {
 .Main-Blog h3{
    height:8% 
     
+}
+
+.card-body{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.Blog-Paragraph{
+    width:90%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size:30px;
+
+}
+
+.Blog-Paragraph h2{
+    font-weight: bold;
+    height:10%;
+}
+
+.Blog-Paragraph p{
+   width:100%;
+   font-size:20px;
+}
+
+
+.Middle-Cards{
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.Card-Rows{
+    width: 100%;
+    margin-left:5%;
+}
+.Column-Cards{
+    width:100%;
+    display:flex;
+    flex-flow: row;
+
+}
+
+
+.Column-Cards img{
+width:99%;
+box-shadow: 8px 8px 8px #888888
+
+}
+
+.Column-Cards h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-left:7%;
+    margin-top:2%;
+}
+
+.Card-Rows h4{
+text-align:right;
+}
+
+.Blog-Text{
+margin-left: 5%;
+margin-top: 3%;
+}
+
+.Blog-Cards{
+width:30%;
+height:100%;
+margin-top:2%;
+margin-left:2%;
+}
+
+.Blog-Cards2{
+margin-top:8%;
+}
+
+.Blog-Cards3{
+    margin-top:8%;
+}
+
+@media(max-width:1000px){
+    
+    
+.Main-Blog{
+    width:100%;
+    margin-right:5%;
 }
 
 .card-body{
@@ -225,65 +315,20 @@ footer nav a {
 
 .Blog-Paragraph h2{
     font-weight: bold;
+    font-size: 25px;
+    width:100%
 }
 
 .Blog-Paragraph p{
    width:100%;
-   font-size:20px;
+   font-size:17px;
 }
 
 
-.Middle-Cards{
-    width: 100%;
-    height:117vh;
+.Blog-Cards h4{
+    height:15vh;
+margin-top:5%;
 }
-
-.Card-Rows{
-    width: 100%;
-    margin-left:5%;
-}
-.Column-Cards{
-    width:90%;
-    display:flex;
-    flex-flow: row;
 
 }
 
-
-.Column-Cards img{
-width:99%;
-box-shadow: 8px 8px 8px #888888
-
-}
-
-.Column-Cards h2{
-    font-weight: bold;
-    font-size: 23px;
-    margin-left:5%;
-    margin-top:2%;
-}
-
-.Card-Rows h4{
-text-align:right;
-}
-
-.Blog-Text{
-height:18vh;
-margin-left: 5%;
-margin-top: 3%;
-}
-
-.Blog-Cards{
-width:30%;
-height:56vh;
-margin-top:2%;
-margin-left:7%;
-}
-
-.Blog-Cards2{
-margin-top:8%;
-}
-
-.Blog-Cards3{
-    margin-top:8%;
-}
