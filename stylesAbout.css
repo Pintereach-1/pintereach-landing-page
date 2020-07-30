@@ -187,9 +187,18 @@ footer nav a {
 
 /* This is where Williams CSS for Header/Footer Goes Above */ 
 
+
+.Bio-Container{
+    width:90%;
+    margin-top: 5%;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly
+}
+
 .Hello-World{
-    width:40%;
-    height:20vh;
+    width:80%;
+    margin-bottom: 5%;
 }
 
 .Hello-World h1{
@@ -214,114 +223,106 @@ margin-top: 3%;
     }
 
 .Members{
-    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
-.Members li{
-    display: inline-block;
+.Members li{ 
     margin-left:3%;
-    box-shadow: 8px 8px 8px #888888
-    
-    
+    box-shadow: 5px 5px px #888888
+      
 }
 
 .Members .Tim{
-    width:21%;
-    height:40vh;
+    width:400px;
+    height:400px;
 }
 
 .Members .Jorge{
-    width:21%;
-    height:40vh;
+    width:400px;
+    height:400px;
 }
 
 .Members .Karina{
-    width:22%;
-    height:40vh;
+    width:400px;
+    height:400px;
 }
 
 .Members .William{
-    width:22%;
-    height:40vh;
+    width:400px;
+    height:400px;
 }
 
 .Members .Hung{
-    width:21%;
-    height:40vh;
-    margin-top:3%;
-    margin-left:14.2%;
+    width:400px;
+    height:400px;
 }
 
 .Members .Brandon{
-    width:21%;
-    height:40vh;
-    margin-top:3%;
+    width:400px;
+    height:400px;
 }
 
 .Members .Sage{
-    width:21%;
-    height:40vh;
-    margin-top:3%;
+    width:400px;
+    height:400px;
 }
 
+
+.Members a{
+    text-decoration: none;
+}
 .Members .Sage p{
-    width:21%;
-    position: absolute;
+    width:100%;
     text-align: center;
-    margin-top: 17.2%;
-    color: pink;
+    color: rebeccapurple;
     font-weight: bold;
 }
 
 .Members .Brandon p{
-    width:21%;
-    position: absolute;
+    width:100%;
     text-align: center;
-    margin-top: 19.8%;
     color: green;
     font-weight: bold;
 }
 
 .Members .Hung p{
-    width:21%;
-    position: absolute;
+    width:100%;
     text-align: center;
-    margin-top: 19%;
     color: purple;
     font-weight: bold;
 }
 .Members .William p{
-    width:21%;
-    position: absolute;
+    width:100%;
     text-align: center;
-    margin-top: 19.8%;
     color: blue;
     font-weight: bold;
 }
 
 
 .Members .Karina p{
-    width:21%;
-    position: absolute;
+    width:100%;
     text-align: center;
-    margin-top: 19.8%;
     color: orange;
     font-weight: bold;
 }
 .Members .Jorge p{
-    width:20%;
-    position: absolute;
+    width:100%;
     text-align: center;
-    margin-top: 19.8%;
-    color: yellow;
+    color: coral;
     font-weight: bold;
 }
 
-.Members p{
-    width:20%;
-    position: absolute;
+
+.Members .Tim p{
+    width:100%;
     text-align: center;
-    margin-top: 19%;
     color: turquoise;
     font-weight: bold;
     
+}
+
+@media(max-width:1000px){
+}
+
+@media(max-width:500px){
 }
