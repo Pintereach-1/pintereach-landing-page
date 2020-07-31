@@ -300,6 +300,10 @@ margin-top:8%;
     
 }
 
+.card-body h2{
+    text-align: center;
+    
+}
 .Blog-Paragraph{
     width:100%;
     height:80%;
